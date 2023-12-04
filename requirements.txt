@@ -1,0 +1,7 @@
+socket
+cv2 
+pickle
+struct
+pyshine
+imutils
+threading
