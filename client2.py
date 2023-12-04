@@ -11,7 +11,7 @@ if camera == True:
 else:
 	vid = cv2.VideoCapture('/home/athira/im/nature.mp4')
 client_socket = socket.socket(socket.AF_INET,socket.SOCK_STREAM)
-host_ip = '127.0.1.1' # Here according to your server ip write the address
+host_ip = '12.0.2.5' # Here according to your server ip write the address
 
 port = 9999
 client_socket.connect((host_ip,port))
