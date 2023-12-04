@@ -17,7 +17,7 @@ else:
 client_socket = socket.socket(socket.AF_INET,socket.SOCK_STREAM)
 
 # Define the IP address and port of the server to connect to
-host_ip = '127.0.1.1' # Here according to your server
+host_ip = '12.0.2.5' # Here according to your server
 port = 9999
 
 client_socket.connect((host_ip,port))
